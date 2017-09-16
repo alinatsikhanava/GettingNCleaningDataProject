@@ -2,7 +2,7 @@
 
 The goal of this project is to prepare tidy data from raw data.
 
-Raw data was obtained from [Human Activity Recognition Using Smartphones Data Set] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+Raw data was obtained from [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 The repo contains:
 * 'README.md' - overview of the repo
