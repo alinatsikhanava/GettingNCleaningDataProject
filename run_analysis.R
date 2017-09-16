@@ -1,3 +1,4 @@
+library(dplyr)
 #Download and unzip file if doesn't exist
 filename <- "HAR.zip"
 if(!file.exists(filename)){
