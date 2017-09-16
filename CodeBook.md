@@ -10,8 +10,8 @@ Domensions:
 
   Subject: integer from 1 to 30  
   Activity: factor    
-    LAYING  
-    SITTING  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LAYING  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SITTING  
     STANDING  
     WALKING  
     WALKING_DOWNSTAIRS  
