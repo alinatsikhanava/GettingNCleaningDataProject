@@ -12,87 +12,87 @@ Domensions:
   Activity: factor    
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LAYING  
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SITTING  
-    STANDING  
-    WALKING  
-    WALKING_DOWNSTAIRS  
-    WALKING_UPSTAIRS  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STANDING  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WALKING  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WALKING_DOWNSTAIRS  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WALKING_UPSTAIRS  
   Activity_ID: integer from 1 to 6
   
 Variables:  
-  `tBodyAccMeanX`            
-  `tBodyAccMeanY`            
-  `tBodyAccMeanZ`           
-  `tBodyAccStdX`
-  `tBodyAccStdY` 
-  `tBodyAccStdZ`            
-  `tGravityAccMeanX`
-  `tGravityAccMeanY`
-  `tGravityAccMeanZ`        
-  `tGravityAccStdX` 
-  `tGravityAccStdY`
-  `tGravityAccStdZ`         
-  `tBodyAccJerkMeanX`
-  `tBodyAccJerkMeanY`
-  `tBodyAccJerkMeanZ`       
-  `tBodyAccJerkStdX`
-  `tBodyAccJerkStdY`
-  `tBodyAccJerkStdZ`        
-  `tBodyGyroMeanX`
-  `tBodyGyroMeanY`
-  `tBodyGyroMeanZ`          
-  `tBodyGyroStdX`
-  `tBodyGyroStdY`
-  `tBodyGyroStdZ`           
-  `tBodyGyroJerkMeanX`
-  `tBodyGyroJerkMeanY`
-  `tBodyGyroJerkMeanZ`      
-  `tBodyGyroJerkStdX`
-  `tBodyGyroJerkStdY`
-  `tBodyGyroJerkStdZ`       
-  `tBodyAccMagMean`
-  `tBodyAccMagStd`
-  `tGravityAccMagMean`      
-  `tGravityAccMagStd`
-  `tBodyAccJerkMagMean`
-  `tBodyAccJerkMagStd`      
-  `tBodyGyroMagMean`
-  `tBodyGyroMagStd`
-  `tBodyGyroJerkMagMean`    
-  `tBodyGyroJerkMagStd`
-  `fBodyAccMeanX`
-  `fBodyAccMeanY`           
-  `fBodyAccMeanZ`
-  `fBodyAccStdX`
-  `fBodyAccStdY`            
-  `fBodyAccStdZ`
-  `fBodyAccJerkMeanX`
-  `fBodyAccJerkMeanY`       
-  `fBodyAccJerkMeanZ`
-  `fBodyAccJerkStdX`
-  `fBodyAccJerkStdY`        
-  `fBodyAccJerkStdZ`
-  `fBodyGyroMeanX`
-  `fBodyGyroMeanY`          
-  `fBodyGyroMeanZ`
-  `fBodyGyroStdX`
-  `fBodyGyroStdY`           
-  `fBodyGyroStdZ`
-  `fBodyAccMagMean`
-  `fBodyAccMagStd`          
-  `fBodyBodyAccJerkMagMean`
-  `fBodyBodyAccJerkMagStd`
-  `fBodyBodyGyroMagMean`    
-  `fBodyBodyGyroMagStd`
-  `fBodyBodyGyroJerkMagMean`
-  `fBodyBodyGyroJerkMagStd`
+  `tBodyAccMeanX`              
+  `tBodyAccMeanY`              
+  `tBodyAccMeanZ`             
+  `tBodyAccStdX`  
+  `tBodyAccStdY`   
+  `tBodyAccStdZ`              
+  `tGravityAccMeanX`  
+  `tGravityAccMeanY`  
+  `tGravityAccMeanZ`          
+  `tGravityAccStdX`   
+  `tGravityAccStdY`  
+  `tGravityAccStdZ`           
+  `tBodyAccJerkMeanX`  
+  `tBodyAccJerkMeanY`  
+  `tBodyAccJerkMeanZ`         
+  `tBodyAccJerkStdX`  
+  `tBodyAccJerkStdY`  
+  `tBodyAccJerkStdZ`          
+  `tBodyGyroMeanX`  
+  `tBodyGyroMeanY`  
+  `tBodyGyroMeanZ`            
+  `tBodyGyroStdX`  
+  `tBodyGyroStdY`  
+  `tBodyGyroStdZ`             
+  `tBodyGyroJerkMeanX`  
+  `tBodyGyroJerkMeanY`  
+  `tBodyGyroJerkMeanZ`        
+  `tBodyGyroJerkStdX`  
+  `tBodyGyroJerkStdY`  
+  `tBodyGyroJerkStdZ`         
+  `tBodyAccMagMean`  
+  `tBodyAccMagStd`  
+  `tGravityAccMagMean`        
+  `tGravityAccMagStd`  
+  `tBodyAccJerkMagMean`  
+  `tBodyAccJerkMagStd`        
+  `tBodyGyroMagMean`  
+  `tBodyGyroMagStd`  
+  `tBodyGyroJerkMagMean`      
+  `tBodyGyroJerkMagStd`  
+  `fBodyAccMeanX`  
+  `fBodyAccMeanY`             
+  `fBodyAccMeanZ`  
+  `fBodyAccStdX`  
+  `fBodyAccStdY`              
+  `fBodyAccStdZ`  
+  `fBodyAccJerkMeanX`  
+  `fBodyAccJerkMeanY`         
+  `fBodyAccJerkMeanZ`  
+  `fBodyAccJerkStdX`  
+  `fBodyAccJerkStdY`          
+  `fBodyAccJerkStdZ`  
+  `fBodyGyroMeanX`  
+  `fBodyGyroMeanY`            
+  `fBodyGyroMeanZ`  
+  `fBodyGyroStdX`  
+  `fBodyGyroStdY`             
+  `fBodyGyroStdZ`  
+  `fBodyAccMagMean`  
+  `fBodyAccMagStd`            
+  `fBodyBodyAccJerkMagMean`  
+  `fBodyBodyAccJerkMagStd`  
+  `fBodyBodyGyroMagMean`      
+  `fBodyBodyGyroMagStd`  
+  `fBodyBodyGyroJerkMagMean`  
+  `fBodyBodyGyroJerkMagStd`  
 
 ### Transformation
-  dplyr package was used for transformations
-  The training and test sets were loaded maintaining only the variables that were Mean or Standard Deviation. The rest were discarted.
-  The 2 sets were merged
-  The new data set was merged with Activity lables by Activity_ID in order to include descriptive activity names in the dataset
-  The data set was labled with the variable names where special characters like '-', '(', and ')' were removed
-  Finally the tidy data set was created and written into tidy.txt file. In the file you will find average variable values for each subject and activity.
+  &nbsp;&nbsp;&nbsp;&nbsp;dplyr package was used for transformations  
+  &nbsp;&nbsp;&nbsp;&nbsp;The training and test sets were loaded maintaining only the variables that were Mean or Standard Deviation. The rest were discarted.   
+  &nbsp;&nbsp;&nbsp;&nbsp;The 2 sets were merged  
+  &nbsp;&nbsp;&nbsp;&nbsp;The new data set was merged with Activity lables by Activity_ID in order to include descriptive activity names in the dataset  
+  &nbsp;&nbsp;&nbsp;&nbsp;The data set was labled with the variable names where special characters like '-', '(', and ')' were removed  
+  &nbsp;&nbsp;&nbsp;&nbsp;Finally the tidy data set was created and written into tidy.txt file. In the file you will find average variable values for each subject and activity.  
 
 
 
