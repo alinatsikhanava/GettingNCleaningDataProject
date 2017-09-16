@@ -6,6 +6,6 @@ Raw data was obtained from [Human Activity Recognition Using Smartphones Data Se
 
 The repo contains:
 * `README.md` - overview of the repo
-* 'run_analysis.R' - the script that transforms raw data into tidy data
-* 'tidy.txt' - the result tidy data set, 
-* 'CodeBook.md' - a text file that describes the data and transformations performed to clean up the data.
+* `run_analysis.R` - the script that transforms raw data into tidy data
+* `tidy.txt` - the result tidy data set, 
+* `CodeBook.md` - a text file that describes the data and transformations performed to clean up the data.
