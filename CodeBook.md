@@ -1,23 +1,28 @@
 ## Codebook for Getting and Cleaning Data Course Project
 
-#Raw Data
+### Raw Data
 The raw data contained observations on 561 variables for each of 30 subjects(people) while performing 6 activities. It was split in two sets: a training set and a test set
 
-#Tidy.txt
+### Tidy.txt
 For the result data set we were only interested in variables that represented Mean or Standard Deviation metrics. So, only 66 out of 561 variables were included in the tidy data set. It contains the average of each variable(each of 66) for each activity and each subject.
 
 Domensions:
-  Subject: integer from 1 to 30
-  Activity: factor
+
+  Subject: 
+  integer from 1 to 30
+  Activity: 
+  factor
     LAYING
     SITTING
     STANDING
     WALKING
     WALKING_DOWNSTAIRS
     WALKING_UPSTAIRS
-  Activity_ID: integer from 1 to 6
+  Activity_ID: 
+  integer from 1 to 6
   
 Variables:
+
   `tBodyAccMeanX`            
   `tBodyAccMeanY`            
   `tBodyAccMeanZ`           
@@ -85,7 +90,7 @@ Variables:
   `fBodyBodyGyroJerkMagMean`
   `fBodyBodyGyroJerkMagStd`
 
-#Transformation
+### Transformation
   dplyr package was used for transformations
   The training and test sets were loaded maintaining only the variables that were Mean or Standard Deviation. The rest were discarted.
   The 2 sets were merged
