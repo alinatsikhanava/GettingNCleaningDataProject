@@ -8,21 +8,17 @@ For the result data set we were only interested in variables that represented Me
 
 Domensions:
 
-  Subject: 
-  integer from 1 to 30
-  Activity: 
-  factor
+  Subject: integer from 1 to 30  
+  Activity: factor  
     LAYING
     SITTING
     STANDING
     WALKING
     WALKING_DOWNSTAIRS
     WALKING_UPSTAIRS
-  Activity_ID: 
-  integer from 1 to 6
+  Activity_ID: integer from 1 to 6
   
-Variables:
-
+Variables:  
   `tBodyAccMeanX`            
   `tBodyAccMeanY`            
   `tBodyAccMeanZ`           
